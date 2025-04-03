@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Vegetable Sandwich",
+        "price": 150,
+        "image": "images/1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Poori Masala",
+        "price": 120,
+        "image": "images/2.webp"
+    },
+    {
+        "id": 3,
+        "name": "South Indian Idli",
+        "price": 90,
+        "image": "images/3.webp"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Parotta Kuruma",
+        "price": 100,
+        "image": "images/4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Noodles",
+        "price": 200,
+        "image": "images/5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Pizza",
+        "price": 300,
+        "image": "images/6.webp"
+    }
+]

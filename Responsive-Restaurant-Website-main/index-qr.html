@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ezhil's QR Code Menu</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('/Responsive-Restaurant-Website-main/assets/images/background.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu-container {
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      width: 300px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      color: #fff;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #fff;
+    }
+
+    .qr-code img {
+      border-radius: 10px;
+      border: 2px solid #fff;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #eee;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #e65c00;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-container">
+    <h2>Scan to View Menu</h2>
+    <div class="qr-code">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://yourmenu.com" alt="QR Code">
+    </div>
+    <p>Point your camera to the code or click the button below.</p>
+    <a class="button" href="https://yourmenu.com" target="_blank">View Menu</a>
+  </div>
+
+</body>
+</html>
