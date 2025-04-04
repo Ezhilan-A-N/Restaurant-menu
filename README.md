@@ -9,8 +9,8 @@ o run this project locally, follow these steps:
 2. Navigate to the project directory:
     cd Responsive-Restaurant-Website-main - For Login(use login.html),for       index(use index.html) & for qr(use index-qr.html).
     For django-admin panel,Migrate for all the requirements, which needs to be satisfied.
-         python manage.py makemigrations
-         python manage.py migrate
+       -->  python manage.py makemigrations
+       -->  python manage.py migrate
    Run the django server.
          python manage.py runserver
    
